@@ -51,12 +51,12 @@ Steps to install the marriage license web app on laravel framework:
 2) Create database "marriage" (or whatever you prefer - again you would have to change references to point accordingly).
    You can also  change dbuser and dbpass below to yours:
 
-    dbname marriage
-    dbuser testdbuser  // leave as it or change to suit
-    dbhost localhost
-    dbpass dbpass     // leave as it or change to suit
+        dbname marriage
+        dbuser testdbuser  // leave as it or change to suit
+        dbhost localhost
+        dbpass dbpass     // leave as it or change to suit
 
-       # mysql -u root -p  // will promot you to enter your MYSQL engine password
+        # mysql -u root -p  // will promot you to enter your MYSQL engine password
 
 
 
@@ -64,10 +64,10 @@ Create a MySql user (preferrably use an existing one like  root - skip below com
 
     # mysql> CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'newuserpass';
 
-    mysql> CREATE DATABASE marriage;
-    mysql> GRANT ALL PRIVILEGES ON marriage.* TO "testdbuser"@"localhost" IDENTIFIED BY "dbpass";
-    mysql> FLUSH PRIVILEGES;
-    mysql> EXIT
+     mysql> CREATE DATABASE marriage;
+     mysql> GRANT ALL PRIVILEGES ON marriage.* TO "testdbuser"@"localhost" IDENTIFIED BY "dbpass";
+     mysql> FLUSH PRIVILEGES;
+     mysql> EXIT
 
 Restart Mariadb/Mysql (not necessary but recommended as it might save you some issues):
 
