@@ -1,7 +1,9 @@
 Scope
 ====
 
+Thi is an example of an application that can be repurposed to serve similar needs in a business, government or educational environment. It can be used in those situtions where you need a web-based application that receives user input, stores required fields, and prints it to defined areas on some paper form fields. Here, for the sake of demonstration, it will print it on the Office of the Registrar General’s Marriage License form. But it can be any type of hard copy form.
 
+There may be reasons you would need to feed the hard copy form to the printer and just print the web-based values on the corresponding boxes. For example, your staff may be collecting handwritten information from users on paper, sometimes with "Reserved for Adminsinsration" sections that are to be filled by more than one party. Using the municipal arriage License form example, that would be the Clerk’s Department, The Marriage Officiant, and the applicants.Employment Ontario second-career appplications run the same way. Then there is the need to get the data printed directly on the form. In the past, that was achieved with a typewriter. Typewriting is still  handwriting that often leads to errors in processing due to legibility issues.  Given that each form is pre-numbered and costs the organization money, this coould be circumvented.
 
 
 Note:
@@ -10,8 +12,6 @@ Note:
 It is recommended that you install this project on its own root directory/vhost.
 This option will make it easier for you to maintain the app. 
 For advanced users, it is possible to install this app on a subdirectory of an existing vhost.
-=============================================================================================
-
 
 
 Preparation:
