@@ -232,6 +232,7 @@ Troubelshooting:
        # cd /usr/local/bin/ 
 
 1) download the installer (composer-setup.php):
+
         # php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 
 2) Run the installer (will check a few PHP settings and then download "composer.phar" to your working directory and rename it to just "composer"
@@ -248,7 +249,7 @@ If it wasn't downloaded, download it manually:
 
     wget https://getcomposer.org/download/1.9.0/composer.phar
 
-then run step 2) above.
+then install it.
 
 Now that is in your path (cd /usr/local/bin/composer), you can access it globally
 
