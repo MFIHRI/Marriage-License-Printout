@@ -10,7 +10,7 @@ Employment Ontario Job Supports and Second-Career appplications still run the sa
 After information collection, there is the need to get field data printed directly on the form fields. In the past, that was achieved with a typewriter. Understandably, typewriting(handwriting) often leads to errors in processing due to legibility issues.  Given that each form is pre-numbered and costs the organization money, this coould be circumvented with computer printing.
 
 The application will give end users direct access to fill in the application data. The staff will have a secure dashboard to  
-access and printe that data on demand.
+access and print that data on demand.
 
 Note:
 ====
@@ -24,7 +24,7 @@ Preparation:
 ===========
 
 Make sure you have the correct Server Requirements for the Laravel framework we will be using for this app.
-So make sure these extensions are enabled in your php.ini:
+So make sure these requirements are met and extensions are enabled in your php.ini:
 
     PHP >= 5.6.4
     OpenSSL PHP Extension
@@ -44,7 +44,7 @@ Steps to install the marriage license web app on laravel framework:
 ==================================================================
 
 1) Download, unzip the app folder and upload to your server.
-  The app is named marriage-license but you can rename it to somethig else.
+  The app is named marriage-license but you can rename it to something else.
   You would then need to change all references in this  documentation to the new name.
 
 
