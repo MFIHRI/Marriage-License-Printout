@@ -90,8 +90,8 @@ Your application key is already set to a 32 random string. You can change this k
    
       Change application key:
    
-    # cd /var/www/marriage-license
-    # php artisan key:generate   // it will generate the new key to your ".env" filename. If successful, 
+         # cd /var/www/marriage-license
+         # php artisan key:generate   // it will generate the new key to your ".env" filename. If successful, 
                                    you should see this output:"Application key set successfully."           
                                    if command does not work, install Laravel globally(see bottom of page)
 
