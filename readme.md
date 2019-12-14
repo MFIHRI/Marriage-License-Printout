@@ -85,9 +85,7 @@ Check database is up and running:
 
 Check via PHPmyADMIN the tables are created successfully. If any errror, drop the tables manaually and simply
 import the "marriage.sql" file on phpMyAdmin:
-
-Navigate to the database you just created and Import database file (marriage.sql).
-   
+  
 
 4) Rename "env" file into ".env" . This will make it a hidden file (to view it enable "View hidden files" in
 yuor Windows Explorer or "ls -a" on Linux terminal to view it.
@@ -182,13 +180,14 @@ Once you're done debugging, don't forget to edit the ".env" file and set debuggi
 
     APP_DEBUG=true  // set to false
 
-Installing in a subdirectory
+7) Installing in a subdirectory
 ============================
 
-7) Should you need to install the app in a subdirectory instead:
+    Should you need to install the app in a subdirectory instead:
 
-  a) Move the "public" folder into your existing site/vhost
-  b) Move rest of marriage-license files and folders outside the public web root directly. Example, you would have this structure:
+     a) Move the "public" folder into your existing site/vhost
+     b) Move rest of marriage-license files and folders outside the public web root directly. Example, you would have this 
+        structure:
 
 
     /var/www/html/www.existingSite.com/public
@@ -216,12 +215,12 @@ Configuration Files
 Troubelshooting:
 
  1 ) Optional - Install composer and Laravel globally
+ 
   Both Composer and Laravel are already installed for this project directory.
   For troubleshooting purposes, It is recommended to install them globally. 
-  A Laravel installationn comes with this project directory so do not install it again in this same directory. Same thing goes for Composer.
-  Rather, install Composer and Laravel in a global/higher directory so they are always in your path (instructions below)
+  A Laravel installationn comes with this project directory so do not install it again in this same directory. Same thing goes  for Composer. Rather, install Composer and Laravel in a global/higher directory so they are always in your path (instructions below)
 
-2 ) Check Composer is installed
+a) Check Composer is installed
    
    
    Before installing Composer, check if it is already installed on your system (it is not by default - if it is, your developer must have installed it)
@@ -233,7 +232,7 @@ Troubelshooting:
         Composer version 1.9.1 2019-11-01 17:20:17
 
 
-3) Install Composer
+b) Install Composer
   
        # cd /usr/local/bin/ 
 
@@ -257,12 +256,11 @@ If it wasn't downloaded, download it manually:
 
 then install it.
 
-Now that is in your path (cd /usr/local/bin/composer), you can access it globally
-
-
-make it executable and invoke it without directly using the php interpreter:
-
-
+    Now that is in your path (cd /usr/local/bin/composer), you can access it globally. Make it executable and invoke it without
+    directly using the php interpreter:
+ 
+    Assign proper permissions:
+    
     # cd /usr/local/bin/
     # chmod +x composer
 
