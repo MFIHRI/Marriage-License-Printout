@@ -1,0 +1,14 @@
+<option value="0"></option>
+<option value="Alberta">Alberta</option>
+<option value="British Columbia">British Columbia</option>
+<option value="Manitoba">Manitoba</option>
+<option value="New Brunswick">New Brunswick</option>
+<option value="Newfoundland Labrador">Newfoundland &amp; Labrador</option>
+<option value="Nova Scotia">Nova Scotia</option>
+<option value="Northwest Territories">Northwest Territories</option>
+<option value="Nunavut">Nunavut</option>
+<option value="Ontario" selected>Ontario</option>
+<option value="Prince Edward Island">Prince Edward Island</option>
+<option value="Québec">Québec</option>
+<option value="Saskatchewan">Saskatchewan</option>
+<option value="Yukon">Yukon</option>

@@ -1,0 +1,161 @@
+body{
+    font-size: 16px;
+    color: black;
+
+}
+.col-md-5, .col-md-2, .col-md-3, .col-md-5 .row, .col-md-6, .all-border {
+    border: 1px solid black;
+    padding: 1px 11px;
+}
+.col-md-8{
+    padding: 0px;
+    border-right: 1.5px solid black;
+}
+.rem-right{
+    border-right: none!important;
+}
+.rem-left{
+    border-left: none!important;
+}
+.rem-top{
+    border-top: none!important;
+}
+.rem-bottom{
+    border-bottom: none!important;
+}
+.border-no{
+    border: none!important;
+}
+.no-padding{
+    padding: 0px 11px!important;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2px 5px;
+    text-align: left;
+}
+
+.table-heading {
+    width: 45%;
+    text-align: center;
+}
+
+.table-heading-blank {
+    width: 13%;
+    border-top: 1px solid white;
+}
+
+.split-cell-left{
+    border-right: 1px solid;
+    width: 50%;
+    padding: 2px 5px;
+}
+
+.split-cell-right{
+    width: 50%;
+    padding: 2px 5px;
+}
+
+.split-bt-cell-left{
+    border-right: 1px solid;
+    width: 65%;
+    padding: 2px 5px;
+}
+
+.split-bt-cell-right{
+    width: 35%;
+    padding: 2px 5px;
+}
+
+.table-space{
+    padding: 2px 5px;
+}
+
+.bottom-table{
+    border-top: 1px solid white !important;
+    padding: 2px 5px;
+}
+
+.bt-tb-bdr{
+    border-right: 1px solid white !important;
+}
+
+td .label-contain {
+    display: inline;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+td .label-contain input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.crossmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 24px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.crossmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+td .label-contain input:checked~.crossmark:after {
+    display: block;
+}
+
+
+td .label-contain .crossmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.example-print {
+    display: block;
+    text-align: right;
+    padding: 10px;
+}
+@media print {
+    .example-print {
+        display: none;
+    }
+    body{
+        font-size: 13px;
+        line-height: normal;
+    }
+}
