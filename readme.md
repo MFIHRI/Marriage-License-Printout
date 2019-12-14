@@ -180,13 +180,15 @@ Once you're done debugging, don't forget to edit the ".env" file and set debuggi
 
     APP_DEBUG=true  // set to false
 
-7) Installing in a subdirectory
-============================
+Installing in a subdirectory
+===============================
 
     Should you need to install the app in a subdirectory instead:
+    
 
-     a) Move the "public" folder into your existing site/vhost
-     b) Move rest of marriage-license files and folders outside the public web root directly. Example, you would have this 
+       a) Move the "public" folder into your existing site/vhost
+       
+       b) Move rest of marriage-license files and folders outside the public web root directly. Example, you would have this 
         structure:
 
 
@@ -308,7 +310,7 @@ you provide. For example:
 
     # cd /var/www/
     # laravel new blog // will create a directory named "blog" containing a fresh Laravel installation with all of Laravel's 
-                      dependencies already installed
+                          dependencies already installed
 
 But for the  above to happen, you need to edit the bash profile:
 
@@ -348,8 +350,7 @@ You can just simply type:
 to access Laravel on browser.                      
                       
  
- 
- 
+  
 Method #2: using composer create-project method                 
 ==============================================                      
  
