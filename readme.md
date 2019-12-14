@@ -30,7 +30,7 @@ So make sure these extensions are enabled in your php.ini:
     
 After enabling the required extension(s), do remember to restart your server:
 
-# systemctl restart httpd (or /etc/init.d/httpd restart for Centos 6
+     # systemctl restart httpd (or /etc/init.d/httpd restart for Centos 6
 
 
 
@@ -50,7 +50,7 @@ Steps to install the marriage license web app on laravel framework:
     dbhost localhost
     dbpass dbpass     // leave as it or change to suit
 
-    # mysql -u root -p  // will promot you to enter your MYSQL engine password
+       # mysql -u root -p  // will promot you to enter your MYSQL engine password
 
 
 
@@ -74,8 +74,8 @@ Check database is up and running:
 
 3) Populate the database with tables (a.ka. schema):
 
-    # cd /var/www/marriage-license
-    # php artisan migrate
+        # cd /var/www/marriage-license
+        # php artisan migrate
 
 Check via PHPmyADMIN the tables are created successfully. If any errror, drop the tables manaually and simply
 import the "marriage.sql" file on phpMyAdmin:
@@ -100,9 +100,9 @@ If the application key is not set, your user sessions and other encrypted data w
                                    
 5) Set file ownership and proper permissions:
 
-    # chown -R apache:apache /var/www/marriage-license/
-    # find /var/www/marriage-license/ -type d -exec chmod 775 {} \;
-    # find /var/www/marriage-license/ -type f -exec chmod 664 {} \;
+        # chown -R apache:apache /var/www/marriage-license/
+        # find /var/www/marriage-license/ -type d -exec chmod 775 {} \;
+        # find /var/www/marriage-license/ -type f -exec chmod 664 {} \;
 
 
 SELinux enabled systems also run the below command to allow write on storage directory.
